@@ -4,5 +4,30 @@
  "title": "Event-Causality-Identification-with-Synthetic-Control",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-11-04 21:17:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ad45ab2a-3315-42a2-9c9f-87073eb75cb0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ad45ab2a-3315-42a2-9c9f-87073eb75cb0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:45:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Event Causality Identification",
+    "Synthetic Control",
+    "Causal Inference",
+    "Potential Outcome Framework",
+    "Text Embedding Inversion",
+    "Counterfactual Reasoning"
+   ],
+   "field": "因果推断与自然语言处理",
+   "innovations": [
+    "首次将合成控制方法应用于文本事件因果关系识别",
+    "通过连续空间全语境匹配和检索增强技术合成反事实控制单元",
+    "降低对大型语言模型的依赖，使用较小模型实现更精确的因果识别"
+   ],
+   "benchmarks": [
+    "COPES-hard",
+    "COPES"
+   ]
+  }
+ }
 }

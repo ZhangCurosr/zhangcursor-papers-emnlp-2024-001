@@ -4,5 +4,31 @@
  "title": "Fairer-Preferences-Elicit-Improved-Human-Aligned-Large-Langu",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-11-04 20:54:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a6b55d22-7e2e-45eb-92c5-4325d8495545.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a6b55d22-7e2e-45eb-92c5-4325d8495545.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:45:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM评估",
+    "偏好公平性",
+    "零样本提示优化",
+    "人类对齐",
+    "提示敏感性",
+    "去偏差"
+   ],
+   "field": "大语言模型评估与对齐",
+   "innovations": [
+    "揭示LLM评估器偏好分布公平性与人类对齐的正相关关系",
+    "提出ZEPO零样本公平性提示优化框架，无需标注数据",
+    "证明公平性指标是比熵/校准/置信度更强的零样本优化目标"
+   ],
+   "benchmarks": [
+    "NewsRoom",
+    "SummEval",
+    "TopicalChat"
+   ]
+  }
+ }
 }

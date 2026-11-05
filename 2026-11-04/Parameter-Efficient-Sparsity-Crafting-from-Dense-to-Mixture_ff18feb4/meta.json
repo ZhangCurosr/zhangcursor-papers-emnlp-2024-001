@@ -4,5 +4,34 @@
  "title": "Parameter-Efficient-Sparsity-Crafting-from-Dense-to-Mixture",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-11-04 21:08:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f649d72c-1bd5-4055-8dff-c8a541cc7fad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f649d72c-1bd5-4055-8dff-c8a541cc7fad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:49:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Parameter-Efficient Fine-Tuning",
+    "Sparse Upcycling",
+    "Instruction Tuning",
+    "Adapter",
+    "Large Language Models"
+   ],
+   "field": "大语言模型参数高效微调",
+   "innovations": [
+    "提出PESC方法，通过适配器实现密集到稀疏MoE的参数高效转换",
+    "Camelidae稀疏模型在MMLU和GSM8K上超越GPT-3.5"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K",
+    "MATH",
+    "HumanEval",
+    "MBPP",
+    "HellaSwag",
+    "NaturalQuestions"
+   ]
+  }
+ }
 }

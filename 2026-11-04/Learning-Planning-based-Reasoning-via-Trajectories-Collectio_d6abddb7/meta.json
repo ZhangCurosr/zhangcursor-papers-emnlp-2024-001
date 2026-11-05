@@ -4,5 +4,33 @@
  "title": "Learning-Planning-based-Reasoning-via-Trajectories-Collectio",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-11-04 21:01:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4e47358e-bd5b-441e-a157-3dbc773358a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4e47358e-bd5b-441e-a157-3dbc773358a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:46:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "过程奖励模型",
+    "Direct Preference Optimization",
+    "推理即规划",
+    "离线模拟",
+    "大语言模型推理",
+    "逻辑推理",
+    "数学推理"
+   ],
+   "field": "大语言模型推理与强化学习对齐",
+   "innovations": [
+    "提出离线轨迹收集+部分探索估算中间步骤期望回报的过程奖励合成方法",
+    "构建同时包含结果偏好与合成过程偏好的DPO训练框架（pDPO）",
+    "仅需10%数据训练PRM、40%结果标注即可逼近全量标注效果"
+   ],
+   "benchmarks": [
+    "LogiQA-v2",
+    "ReClor",
+    "GSM8K",
+    "MATH"
+   ]
+  }
+ }
 }

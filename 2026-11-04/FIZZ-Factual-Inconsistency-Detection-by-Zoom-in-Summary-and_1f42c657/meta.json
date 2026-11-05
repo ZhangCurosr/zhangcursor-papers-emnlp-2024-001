@@ -4,5 +4,31 @@
  "title": "FIZZ-Factual-Inconsistency-Detection-by-Zoom-in-Summary-and",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-11-04 21:06:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9bb0ec96-e1f8-4fc5-b9e3-7e42b6aadd3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/9bb0ec96-e1f8-4fc5-b9e3-7e42b6aadd3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:45:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "factuality evaluation",
+    "abstractive summarization",
+    "natural language inference",
+    "atomic fact decomposition",
+    "hallucination detection",
+    "explainable AI"
+   ],
+   "field": "自然语言处理评估与验证",
+   "innovations": [
+    "基于原子事实分解的细粒度事实验证框架",
+    "双向共指消解提升NLI匹配精度",
+    "自适应文档粒度扩展支持多句推理"
+   ],
+   "benchmarks": [
+    "AGGREFACT",
+    "CNN-DailyMail",
+    "XSum"
+   ]
+  }
+ }
 }

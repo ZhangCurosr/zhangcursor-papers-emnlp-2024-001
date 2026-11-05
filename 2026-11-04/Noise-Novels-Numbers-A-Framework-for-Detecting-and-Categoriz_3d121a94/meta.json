@@ -4,5 +4,31 @@
  "title": "Noise-Novels-Numbers-A-Framework-for-Detecting-and-Categoriz",
  "token": "sk-bXaG87Ajl...",
  "created_at": "2026-11-04 21:13:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3bdba60f-8461-43fa-ae3a-7be30aa6a0a2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3bdba60f-8461-43fa-ae3a-7be30aa6a0a2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:48:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Computational Literary Studies",
+    "Noise Detection",
+    "Historical NLP",
+    "Topic Modeling",
+    "Fine-tuning BERT",
+    "Diachronic Analysis",
+    "Scandinavian Literature"
+   ],
+   "field": "计算人文与数字声学",
+   "innovations": [
+    "提出主题模型检索与BERT细调结合的双阶段噪声检测框架",
+    "构建并开源首个北欧19世纪文学噪声标注数据集",
+    "实证量化验证1870-1899年丹麦挪威小说中噪声感知显著上升的假设"
+   ],
+   "benchmarks": [
+    "MeMo Corpus",
+    "ScandEval"
+   ]
+  }
+ }
 }

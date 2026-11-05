@@ -4,5 +4,29 @@
  "title": "PhiloGPT-A-Philology-Oriented-Large-Language-Model-for-Ancie",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-11-04 21:08:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ceadd7f1-ece8-4a8c-89ba-00f82b781aea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ceadd7f1-ece8-4a8c-89ba-00f82b781aea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:49:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "古代汉语",
+    "文献学",
+    "大语言模型",
+    "敦煌文献",
+    "文本修复",
+    "领域LLM"
+   ],
+   "field": "古代文献智能处理",
+   "innovations": [
+    "PhiloCorpus-ZH大规模古代中文文献语料库构建",
+    "PhiloCoP模仿文献学家分析范式的三步推理框架",
+    "PhiloBenchmark包含9项任务的古代中文LLM综合评测基准"
+   ],
+   "benchmarks": [
+    "PhiloBenchmark"
+   ]
+  }
+ }
 }

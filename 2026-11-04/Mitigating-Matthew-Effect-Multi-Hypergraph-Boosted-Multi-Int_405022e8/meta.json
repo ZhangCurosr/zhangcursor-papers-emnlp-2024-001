@@ -4,5 +4,32 @@
  "title": "Mitigating-Matthew-Effect-Multi-Hypergraph-Boosted-Multi-Int",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-11-04 20:54:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ad5af94a-ab3f-4a6e-9e42-5b432a85abb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ad5af94a-ab3f-4a6e-9e42-5b432a85abb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:47:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "马太效应",
+    "对话推荐系统",
+    "多超图",
+    "自监督学习",
+    "兴趣建模",
+    "去偏推荐"
+   ],
+   "field": "对话推荐系统与公平性",
+   "innovations": [
+    "首次在三元通道（group/joint/purchase）上构建多超图缓解 CRS 马太效应",
+    "物品/实体/词汇三层超图协同建模多层次用户兴趣",
+    "自监督 InfoNCE 对齐 + 推荐/对话联合端到端训练"
+   ],
+   "benchmarks": [
+    "REDIAL",
+    "TG-REDIAL",
+    "OpenDialKG",
+    "DuRecDial"
+   ]
+  }
+ }
 }

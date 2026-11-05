@@ -4,5 +4,30 @@
  "title": "Fine-Grained-Prediction-of-Reading-Comprehension-from-Eye-Mo",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-11-04 21:13:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/92d9eb4a-c7cc-4ff8-a183-3acb96c8b618.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/92d9eb4a-c7cc-4ff8-a183-3acb96c8b618.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:46:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "eye-movement prediction",
+    "reading comprehension",
+    "multimodal transformer",
+    "item-level assessment",
+    "OneStop dataset"
+   ],
+   "field": "眼动与阅读理解预测",
+   "innovations": [
+    "提出RoBERTa-QEye/MAG-QEye/PostFusion-QEye三种融合眼动与文本的Transformer模型用于item-level阅读理解预测",
+    "建立New Participant/New Item/New Both三类严格泛化评估协议并引入强文本基线",
+    "系统比较普通阅读与信息搜索两种情境下的眼动预测表现"
+   ],
+   "benchmarks": [
+    "OneStop Eye Movements",
+    "Text-only RoBERTa baseline",
+    "SB-SAT"
+   ]
+  }
+ }
 }

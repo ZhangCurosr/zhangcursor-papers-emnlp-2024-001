@@ -4,5 +4,10 @@
  "title": "Pre-trained-Language-Models-Do-Not-Help-Auto-regressive-Text",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-11-04 21:27:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4a01b664-57a6-4df7-8f05-e729cf7986e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/4a01b664-57a6-4df7-8f05-e729cf7986e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:49:50",
+  "chunks": 1
+ }
 }

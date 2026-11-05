@@ -4,5 +4,30 @@
  "title": "On-the-Influence-of-Gender-and-Race-in-Romantic-Relationship",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-11-04 21:06:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7acbf602-fda9-4a39-96d9-96012ca50469.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7acbf602-fda9-4a39-96d9-96012ca50469.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:48:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大型语言模型",
+    "偏见评估",
+    "名字替换实验",
+    "异性恋规范偏见",
+    "关系预测",
+    "公平性",
+    "DDRel"
+   ],
+   "field": "NLP公平性与偏见评估",
+   "innovations": [
+    "通过受控名字替换实验首次在关系预测任务中揭示LLM的异性恋规范偏见与亚裔名字系统性劣势",
+    "提出embedding可分性分析作为偏见归因方法，证明亚裔名字嵌入中性别信息编码较弱导致模型难以利用性别线索",
+    "构建兼顾gender-neutral名字与非线性bin的精细化名字分类体系，支持对性别信息连续谱的因果分析"
+   ],
+   "benchmarks": [
+    "DDRel"
+   ]
+  }
+ }
 }

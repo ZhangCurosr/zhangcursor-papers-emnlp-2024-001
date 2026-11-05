@@ -4,5 +4,33 @@
  "title": "Pixology-Probing-the-Linguistic-and-Visual-Capabilities-of-P",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-11-04 21:37:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64d6a7c3-5712-4a84-b45e-d73b1229f214.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64d6a7c3-5712-4a84-b45e-d73b1229f214.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:49:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "像素语言模型",
+    "模型可解释性",
+    "探针分析",
+    "视觉-语言谱系",
+    "正交约束渲染",
+    "多语言建模"
+   ],
+   "field": "多模态语言表示学习",
+   "innovations": [
+    "系统评估像素模型在视觉-语言谱系中的定位",
+    "揭示正交约束对早期表层语言学习的促进作用",
+    "发现微调对不同渲染策略模型的语言知识重塑差异"
+   ],
+   "benchmarks": [
+    "SentEval",
+    "GLUE",
+    "CIFAR-100",
+    "MNIST",
+    "Universal Dependencies"
+   ]
+  }
+ }
 }

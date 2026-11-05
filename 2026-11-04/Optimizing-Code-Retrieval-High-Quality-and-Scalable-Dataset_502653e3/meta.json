@@ -4,5 +4,34 @@
  "title": "Optimizing-Code-Retrieval-High-Quality-and-Scalable-Dataset",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-11-04 21:13:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/720360ff-460e-4714-9459-6cfc7fb3df0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/720360ff-460e-4714-9459-6cfc7fb3df0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:49:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码检索",
+    "大语言模型",
+    "数据集标注",
+    "函数调用图",
+    "拓扑排序",
+    "Query4Code",
+    "对比学习"
+   ],
+   "field": "代码检索与代码理解",
+   "innovations": [
+    "基于拓扑排序的函数调用图标注算法，将多级调用关系解耦为单级上下文",
+    "流行度驱动的第三方API文档自动补充机制",
+    "首次系统性量化仓库调用关系与API流行度对LLM代码标注质量的影响"
+   ],
+   "benchmarks": [
+    "CoNaLa",
+    "SO-DS",
+    "StaQC",
+    "CoSQA",
+    "WebQueryTest"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Model-Balancing-Helps-Low-data-Training-and-Fine-tuning",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-11-04 21:14:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1ae491af-87fa-4570-8ec2-46cc05b7f1ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1ae491af-87fa-4570-8ec2-46cc05b7f1ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:47:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HT-SR",
+    "TempBalance",
+    "low-data fine-tuning",
+    "layer-wise learning rate",
+    "SciML",
+    "NLP"
+   ],
+   "field": "高效微调与低资源学习",
+   "innovations": [
+    "基于HT-SR理论揭示低数据训练中层间训练质量不均衡现象",
+    "提出TB_Sigmoid层-wise学习率调度算法平衡各层训练质量",
+    "证明TempBalance可作为即插即用模块与SAM/AdaFactor/LoRA组合提升性能"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "ScienceQA",
+    "1D/2D CFD",
+    "DarcyFlow"
+   ]
+  }
+ }
 }

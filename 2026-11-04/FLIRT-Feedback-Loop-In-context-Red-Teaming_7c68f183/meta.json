@@ -4,5 +4,30 @@
  "title": "FLIRT-Feedback-Loop-In-context-Red-Teaming",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-11-04 21:19:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b6b98213-286d-450c-9bf6-50eef254dd98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b6b98213-286d-450c-9bf6-50eef254dd98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:45:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "red teaming",
+    "in-context learning",
+    "adversarial prompts",
+    "stable diffusion",
+    "safety evaluation"
+   ],
+   "field": "生成式模型安全评估",
+   "innovations": [
+    "提出反馈循环驱动的in-context红队框架FLIRT，替代SFS静态样本策略",
+    "设计FIFO/LIFO/Scoring/Scoring-LIFO四种exemplar更新策略并统一为多目标优化",
+    "在文本到图像与文本到文本场景验证跨模态可迁移性与鲁棒性"
+   ],
+   "benchmarks": [
+    "Stable Diffusion v1-4",
+    "Safe Stable Diffusion (Weak/Medium/Strong/Max)",
+    "GPT-Neo 2.7B"
+   ]
+  }
+ }
 }

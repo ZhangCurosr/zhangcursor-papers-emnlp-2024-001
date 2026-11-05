@@ -4,5 +4,30 @@
  "title": "On-the-Role-of-Context-in-Reading-Time-Prediction",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-11-04 21:24:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3ad5d361-baae-417f-ae3b-2ff68bd1ac3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/3ad5d361-baae-417f-ae3b-2ff68bd1ac3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:48:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "surprisal theory",
+    "reading time prediction",
+    "eye-tracking",
+    "multilingual corpus",
+    "orthogonalization",
+    "predictor disentanglement"
+   ],
+   "field": "计算心理语言学",
+   "innovations": [
+    "提出正交化surprisal以解耦上下文与词频的共线性效应",
+    "形式化证明surprisal、PMI与frequency在三变量线性模型中等价",
+    "发现正交化后上下文对阅读时间的独立解释力远低于先前估计"
+   ],
+   "benchmarks": [
+    "MECO (Multilingual Eye-movement Corpus)",
+    "mGPT multilingual language model"
+   ]
+  }
+ }
 }

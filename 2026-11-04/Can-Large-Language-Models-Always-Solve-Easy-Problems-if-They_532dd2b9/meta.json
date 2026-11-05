@@ -4,5 +4,31 @@
  "title": "Can-Large-Language-Models-Always-Solve-Easy-Problems-if-They",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-11-04 21:16:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8f4c3f0b-d54d-4bc1-98db-caff773e6cbd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8f4c3f0b-d54d-4bc1-98db-caff773e6cbd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:45:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM consistency",
+    "hard-to-easy inconsistency",
+    "ConsisEval",
+    "consistency score",
+    "relative consistency score",
+    "in-context learning",
+    "data contamination"
+   ],
+   "field": "大语言模型可信性与一致性评测",
+   "innovations": [
+    "首次系统研究 LLM 难→易不一致现象并提出成对难度序基准",
+    "提出基于条件概率的一致性分数 CS 与相对一致性分数 RCS 定量指标"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "HumanEval",
+    "IFEval"
+   ]
+  }
+ }
 }

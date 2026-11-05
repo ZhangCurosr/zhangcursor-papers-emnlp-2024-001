@@ -4,5 +4,35 @@
  "title": "Mitigating-the-Alignment-Tax-of-RLHF",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-11-04 21:21:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46d88649-12e8-438d-92dd-7143cdc3f3ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46d88649-12e8-438d-92dd-7143cdc3f3ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:47:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLHF",
+    "alignment tax",
+    "model averaging",
+    "heterogeneous model averaging",
+    "catastrophic forgetting",
+    "DPO",
+    "RSF"
+   ],
+   "field": "大语言模型对齐与安全",
+   "innovations": [
+    "系统揭示模型平均在缓解对齐税方面的意外有效性并给出理论解释",
+    "提出异构模型平均HMA通过差异化层权重分配优化Pareto前沿"
+   ],
+   "benchmarks": [
+    "ARC Easy/Challenge",
+    "Race",
+    "PIQA",
+    "SQuAD",
+    "DROP",
+    "WMT 2014 Fr-En",
+    "AlpacaEval 2.0"
+   ]
+  }
+ }
 }
