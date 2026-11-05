@@ -4,5 +4,31 @@
  "title": "MSI-Agent-Incorporating-Multi-Scale-Insight-into-Embodied-Ag",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-11-04 21:08:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ca0bcdc1-7074-4e36-b742-401ed7a17775.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ca0bcdc1-7074-4e36-b742-401ed7a17775.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:09:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied agent",
+    "multi-scale insight",
+    "long-term memory",
+    "LLM planning",
+    "domain adaptation",
+    "TEACh",
+    "Alfworld"
+   ],
+   "field": "具身智能体长期记忆与规划",
+   "innovations": [
+    "多尺度洞察（general/environment/subtask）分层生成与管理机制",
+    "成功-失败经验对（pair）对比选择策略用于洞察提炼",
+    "Hashmap LLM 预筛+向量检索双模式子任务洞察选择，缓解无关洞察干扰"
+   ],
+   "benchmarks": [
+    "TEACh TfD",
+    "AgentBench Alfworld"
+   ]
+  }
+ }
 }

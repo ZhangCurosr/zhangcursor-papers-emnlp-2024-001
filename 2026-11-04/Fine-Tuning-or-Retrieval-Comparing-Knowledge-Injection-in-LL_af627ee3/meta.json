@@ -4,5 +4,29 @@
  "title": "Fine-Tuning-or-Retrieval-Comparing-Knowledge-Injection-in-LL",
  "token": "sk-vBvZ06NsJ...",
  "created_at": "2026-11-04 21:06:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a89ac8cb-95b4-4b81-8ac2-873c060da4f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a89ac8cb-95b4-4b81-8ac2-873c060da4f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:09:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识注入",
+    "检索增强生成",
+    "无监督微调",
+    "LLM事实知识",
+    "知识密集型任务"
+   ],
+   "field": "大语言模型知识增强",
+   "innovations": [
+    "首次系统对比无监督微调与RAG在知识注入上的全面性能",
+    "发现通过paraphrase重复增强可单调提升LLM对全新知识的学习效果",
+    "构建基于当前事件的评估数据集以区分'刷新记忆'与'学习新知识'"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "Current Events (self-built)"
+   ]
+  }
+ }
 }

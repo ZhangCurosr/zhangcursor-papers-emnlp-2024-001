@@ -4,5 +4,30 @@
  "title": "MatchTime-Towards-Automatic-Soccer-Game-Commentary-Generatio",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-11-04 21:26:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/125c17ea-0158-4a67-a0ea-b73b45af083a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/125c17ea-0158-4a67-a0ea-b73b45af083a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:10:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "足球比赛评论生成",
+    "视频-文本时间对齐",
+    "多模态对比学习",
+    "SoccerNet",
+    "大语言模型",
+    "视频 captioning"
+   ],
+   "field": "体育视频理解与多模态生成",
+   "innovations": [
+    "两阶段多模态时间对齐流水线（ASR+LLM粗对齐 + CLIP对比学习细对齐）",
+    "构建高质量MatchTime训练数据集与SN-Caption-test-align评测基准",
+    "MatchVoice足球评论生成模型在多项指标上达到SOTA"
+   ],
+   "benchmarks": [
+    "SN-Caption-test-align",
+    "SoccerNet-Caption"
+   ]
+  }
+ }
 }

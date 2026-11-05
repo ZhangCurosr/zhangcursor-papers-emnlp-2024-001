@@ -4,5 +4,33 @@
  "title": "Lookback-Lens-Detecting-and-Mitigating-Contextual-Hallucinat",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-11-04 21:06:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/99f929f2-4145-45b4-9274-2d38107b031e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/99f929f2-4145-45b4-9274-2d38107b031e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 22:09:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "contextual hallucination",
+    "lookback ratio",
+    "attention maps",
+    "hallucination detection",
+    "classifier-guided decoding",
+    "cross-model transfer",
+    "large language models"
+   ],
+   "field": "LLM 事实性与幻觉检测",
+   "innovations": [
+    "提出仅基于 attention 回溯比（lookback ratio）的轻量幻觉检测器 Lookback Lens，跨任务泛化优于 hidden-state 和 NLI 基线",
+    "将检测器嵌入解码过程实现 Lookback Lens Guided Decoding，在 XSum 上将幻觉率降低 9.6%",
+    "通过线性头映射实现 7B→13B 跨模型零重训迁移"
+   ],
+   "benchmarks": [
+    "CNN/DM",
+    "Natural Questions",
+    "XSum",
+    "MT-Bench"
+   ]
+  }
+ }
 }
