@@ -4,5 +4,36 @@
  "title": "Integrating-Structural-Semantic-Knowledge-for-Enhanced-Infor",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-11-04 21:04:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/790e3b6f-8ec5-45af-a9c9-54e112a9aa9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/790e3b6f-8ec5-45af-a9c9-54e112a9aa9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:11:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "信息抽取",
+    "预训练",
+    "AMR",
+    "对比学习",
+    "图神经网络",
+    "自监督学习",
+    "结构化语义"
+   ],
+   "field": "信息抽取预训练",
+   "innovations": [
+    "提出SKIE预训练框架，利用AMR图谱结构语义知识自监督学习IE模型",
+    "设计确定性+概率性双路径拓扑增强策略提取多粒度凝聚子图",
+    "提出T-GSN拓扑感知图编码器，保留边关系与子结构信息"
+   ],
+   "benchmarks": [
+    "ACE04",
+    "ACE05",
+    "CoNLL03",
+    "CoNLL04",
+    "SciERC",
+    "CASIE",
+    "CrossNER"
+   ]
+  }
+ }
 }

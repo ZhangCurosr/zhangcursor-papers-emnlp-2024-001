@@ -4,5 +4,10 @@
  "title": "HELPD-Mitigating-Hallucination-of-LVLMs-by-Hierarchical-Feed",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-11-04 21:13:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/af7ff4e3-8795-46cf-a8a8-33721033e209.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/af7ff4e3-8795-46cf-a8a8-33721033e209.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:09:08",
+  "chunks": 1
+ }
 }

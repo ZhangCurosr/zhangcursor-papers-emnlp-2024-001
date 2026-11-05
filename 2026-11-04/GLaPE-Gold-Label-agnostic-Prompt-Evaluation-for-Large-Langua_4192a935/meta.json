@@ -4,5 +4,36 @@
  "title": "GLaPE-Gold-Label-agnostic-Prompt-Evaluation-for-Large-Langua",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-11-04 21:25:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/621bba31-785f-4b4f-a153-6a75004cb216.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/621bba31-785f-4b4f-a153-6a75004cb216.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:07:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prompt optimization",
+    "gold label-agnostic",
+    "self-consistency",
+    "large language models",
+    "prompt evaluation",
+    "gradient-free optimization"
+   ],
+   "field": "大语言模型提示工程",
+   "innovations": [
+    "提出GLaPE，首个无需金标准标签的提示评估框架",
+    "融合自一致性评估与跨提示相互一致性细化，校正SC高估问题",
+    "在8个推理数据集和3种开源模型上验证，性能对标甚至超越OPRO"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH",
+    "AQuA",
+    "StrategyQA",
+    "MultiArith",
+    "SVAMP",
+    "AddSub",
+    "Big-Bench Date"
+   ]
+  }
+ }
 }

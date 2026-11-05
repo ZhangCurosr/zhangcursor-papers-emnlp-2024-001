@@ -4,5 +4,32 @@
  "title": "Evaluating-Large-Language-Models-via-Linguistic-Profiling",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-11-04 21:22:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/979abd8f-c6b6-4a05-b7f7-e8a6899fa4ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/979abd8f-c6b6-4a05-b7f7-e8a6899fa4ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:07:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "linguistic profiling",
+    "large language models",
+    "constrained generation",
+    "morphosyntactic evaluation",
+    "universal dependencies",
+    "success rate",
+    "Spearman correlation"
+   ],
+   "field": "大语言模型评估",
+   "innovations": [
+    "提出基于linguistic profiling的LLM句法生成评估框架，首次系统性量化20项形态句法约束遵循能力",
+    "设计SR与Spearman ρ双指标体系，揭示模型精确控制与趋势敏感性的显著分离",
+    "构建约束传播分析范式，量化单属性约束对其他句法属性的连带影响及与自然英语的分布相似度"
+   ],
+   "benchmarks": [
+    "EWT v2.5",
+    "ProfilingUD-extracted morphosyntactic features",
+    "Universal Dependencies POS tags"
+   ]
+  }
+ }
 }

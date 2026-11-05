@@ -4,5 +4,31 @@
  "title": "Embedding-and-Gradient-Say-Wrong-A-White-Box-Method-for-Hall",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-11-04 21:17:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/21279bfa-e395-4294-b6ef-f05239e72be1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/21279bfa-e395-4294-b6ef-f05239e72be1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:06:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉检测",
+    "白色框方法",
+    "大语言模型",
+    "Embedding",
+    "梯度信息",
+    "Taylor展开"
+   ],
+   "field": "LLM可靠性与可解释性",
+   "innovations": [
+    "提出EGH方法，利用embedding差与梯度联合特征检测幻觉",
+    "基于Taylor展开将分布差异分解为一阶可微特征",
+    "在多个基准上达到SOTA且方法model-agnostic"
+   ],
+   "benchmarks": [
+    "HaluEval",
+    "SelfCheckGPT",
+    "HADES"
+   ]
+  }
+ }
 }

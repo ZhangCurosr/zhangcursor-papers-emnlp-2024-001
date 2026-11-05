@@ -4,5 +4,34 @@
  "title": "KB-Plugin-A-Plug-and-play-Framework-for-Large-Language-Model",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-11-04 21:08:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1444b85f-1d2e-4b12-b6af-a219adc24cc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1444b85f-1d2e-4b12-b6af-a219adc24cc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:11:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "程序诱导",
+    "知识图谱问答",
+    "大语言模型",
+    "参数高效微调",
+    "插件学习",
+    "低资源学习",
+    "知识注入"
+   ],
+   "field": "知识图谱问答/程序诱导",
+   "innovations": [
+    "提出KB-Plugin框架，通过自监督学习的Schema插件和可迁移的PI插件，实现LLM在低资源KB上的程序诱导，无需目标KB标注数据。",
+    "设计自监督三元组补全任务将KB Schema详细信息编码进LoRA模块。",
+    "训练PI插件使其学会从不同Schema插件中提取信息，提升跨KB迁移能力。"
+   ],
+   "benchmarks": [
+    "WebQSP",
+    "GraphQ",
+    "GrailQA",
+    "MetaQA",
+    "SoAyBench"
+   ]
+  }
+ }
 }

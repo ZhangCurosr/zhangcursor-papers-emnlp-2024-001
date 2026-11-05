@@ -4,5 +4,33 @@
  "title": "CHIQ-Contextual-History-Enhancement-for-Improving-Query-Rewr",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-11-04 21:26:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bb1d2ab0-e212-45fa-8071-0a00152d8708.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bb1d2ab0-e212-45fa-8071-0a00152d8708.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:05:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conversational search",
+    "query rewriting",
+    "large language models",
+    "open-source LLM",
+    "history enhancement",
+    "pseudo supervision"
+   ],
+   "field": "对话式信息检索",
+   "innovations": [
+    "两阶段历史增强+查询重写框架，利用开源7B模型逼近闭源性能",
+    "五大NLP增强策略（QD/RE/PR/TS/HS）系统化提升对话历史质量",
+    "检索评分选优的伪监督信号生成方法，替代人工标注微调CQR模型"
+   ],
+   "benchmarks": [
+    "TopiOCQA",
+    "QReCC",
+    "CAsT-19",
+    "CAsT-20",
+    "CAsT-21"
+   ]
+  }
+ }
 }

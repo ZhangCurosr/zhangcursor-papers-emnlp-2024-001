@@ -4,5 +4,30 @@
  "title": "Hateful-Word-in-Context-Classification",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-11-04 21:06:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75a26caa-e98c-4cd3-a4ae-9fc9b934ab8e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75a26caa-e98c-4cd3-a4ae-9fc9b934ab8e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:08:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hate speech detection",
+    "word sense disambiguation",
+    "subjective NLP",
+    "computational lexicon semantics",
+    "contextual embeddings"
+   ],
+   "field": "仇恨言论检测与词汇语义计算",
+   "innovations": [
+    "提出HateWiC任务，首次系统性研究语境中仇恨词的主观性分类",
+    "构建4000实例多标注者数据集并揭示hate-heterogeneous sense现象",
+    "验证定义嵌入与标注者人口统计信息对主观仇恨分类的互补价值"
+   ],
+   "benchmarks": [
+    "HateWiC",
+    "DINU1",
+    "DINU2"
+   ]
+  }
+ }
 }

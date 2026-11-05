@@ -4,5 +4,34 @@
  "title": "Knowledge-Verification-to-Nip-Hallucination-in-the-Bud",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-11-04 21:11:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/44bce342-67bb-4f2b-af65-69291b1bfc7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/44bce342-67bb-4f2b-af65-69291b1bfc7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:11:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hallucination",
+    "knowledge inconsistency",
+    "instruction tuning",
+    "data curation",
+    "large language models",
+    "alignment"
+   ],
+   "field": "大语言模型幻觉抑制与知识对齐",
+   "innovations": [
+    "提出考试驱动的知识一致性检测方法，通过自动生成多选题评估基础模型对齐数据的知识掌握程度",
+    "设计开卷微调、丢弃微调和拒绝微调三种知识不一致校准策略",
+    "建立知识不一致比例与幻觉率之间的量化正相关关系"
+   ],
+   "benchmarks": [
+    "LIMAEval",
+    "VicunaEval",
+    "WizardLMEval",
+    "TruthfulQA",
+    "MS MARCO",
+    "ACI-Bench"
+   ]
+  }
+ }
 }

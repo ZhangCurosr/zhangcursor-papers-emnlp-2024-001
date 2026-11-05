@@ -4,5 +4,32 @@
  "title": "Interpreting-Arithmetic-Mechanism-in-Large-Language-Models-t",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-11-04 21:12:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/73a4afd1-e7a3-4e25-b7d3-67fb8911fe1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/73a4afd1-e7a3-4e25-b7d3-67fb8911fe1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:11:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机理可解释性",
+    "注意力头",
+    "FFN神经元",
+    "算术推理",
+    "模型编辑",
+    "LoRA机制",
+    "比较神经元分析"
+   ],
+   "field": "大语言模型可解释性",
+   "innovations": [
+    "提出CNA方法构建算术计算四阶段逻辑链",
+    "揭示算术头存储1D运算记忆参数的机制",
+    "发现LoRA通过放大重要FFN神经元系数分数提升预测概率"
+   ],
+   "benchmarks": [
+    "2D算术任务",
+    "1D/2D/3D算术泛化评估",
+    "性别偏见基准"
+   ]
+  }
+ }
 }

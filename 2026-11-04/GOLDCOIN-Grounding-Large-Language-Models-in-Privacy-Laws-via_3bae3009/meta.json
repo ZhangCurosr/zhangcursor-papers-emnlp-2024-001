@@ -4,5 +4,31 @@
  "title": "GOLDCOIN-Grounding-Large-Language-Models-in-Privacy-Laws-via",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-11-04 21:13:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/00994348-40b2-4c33-bcc3-3f6e5c3ec1ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/00994348-40b2-4c33-bcc3-3f6e5c3ec1ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:08:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Privacy Law",
+    "Large Language Models",
+    "Contextual Integrity",
+    "Synthetic Data Generation",
+    "Legal Judgment Prediction",
+    "HIPAA",
+    "Instruction Tuning"
+   ],
+   "field": "法律大模型与隐私合规",
+   "innovations": [
+    "提出基于情境完整性理论的法律锚定案例生成框架 GOLDCOIN",
+    "构建上下文特征完整性、规范一致性与多样性三重后处理机制提升合成数据质量",
+    "多步 Chain-of-Thought 指令微调开源 LLM，显著提升隐私案件适用性与合规性判定准确率"
+   ],
+   "benchmarks": [
+    "GOLDCOIN-HIPAA",
+    "Caselaw Access Project (CAP)"
+   ]
+  }
+ }
 }

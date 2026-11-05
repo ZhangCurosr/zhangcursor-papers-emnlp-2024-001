@@ -4,5 +4,10 @@
  "title": "GeoGPT4V-Towards-Geometric-Multi-modal-Large-Language-Models",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-11-04 21:24:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/22f362eb-6799-4f0b-a6c1-02ca71ea70ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/22f362eb-6799-4f0b-a6c1-02ca71ea70ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:09:27",
+  "chunks": 1
+ }
 }

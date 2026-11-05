@@ -4,5 +4,30 @@
  "title": "LEMoE-Advanced-Mixture-of-Experts-Adaptor-for-Lifelong-Model",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-11-04 21:26:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/802fa0f6-9a23-4a59-b3ec-bd38b0b474ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/802fa0f6-9a23-4a59-b3ec-bd38b0b474ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:11:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型编辑",
+    "终身学习",
+    "混合专家",
+    "大语言模型",
+    "灾难性遗忘",
+    "路由一致性"
+   ],
+   "field": "大语言模型编辑",
+   "innovations": [
+    "KV锚定路由机制确保训练推理一致性",
+    "专家-批次对齐方法缓解灾难性遗忘",
+    "基于语义聚类的编辑顺序规划"
+   ],
+   "benchmarks": [
+    "ZsRE",
+    "SelfCheckGPT"
+   ]
+  }
+ }
 }

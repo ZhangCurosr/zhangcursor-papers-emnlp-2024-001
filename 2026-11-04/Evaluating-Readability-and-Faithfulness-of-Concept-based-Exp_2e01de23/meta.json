@@ -4,5 +4,32 @@
  "title": "Evaluating-Readability-and-Faithfulness-of-Concept-based-Exp",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-11-04 21:25:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49415888-27ef-4dba-a313-3c411de2cd0a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/49415888-27ef-4dba-a313-3c411de2cd0a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:07:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "concept-based explanation",
+    "faithfulness",
+    "readability",
+    "explainable AI",
+    "meta-evaluation",
+    "measurement theory",
+    "large language models"
+   ],
+   "field": "可解释人工智能（XAI）",
+   "innovations": [
+    "形式化概念为虚拟神经元，统一覆盖多种概念解释方法",
+    "将概念扰动建模为约束优化问题并推导闭式解，实现忠实度的公平量化",
+    "引入测量理论的可靠性与有效性框架进行元评估，筛选出可靠的自动评估指标"
+   ],
+   "benchmarks": [
+    "Pile",
+    "Pythia-70M",
+    "GPT-2 small"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "CUTE-Measuring-LLMs-Understanding-of-Their-Tokens",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-11-04 21:27:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c40efdb5-8e8c-4212-9e88-ba27456489c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/c40efdb5-8e8c-4212-9e88-ba27456489c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:06:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CUTE benchmark",
+    "character-level understanding",
+    "token composition",
+    "LLM evaluation",
+    "orthographic similarity",
+    "text manipulation"
+   ],
+   "field": "大语言模型能力评估",
+   "innovations": [
+    "提出系统评估 LLM 字符级知识理解与操作的 CUTE 基准，覆盖构成理解、相似性辨析与序列操作三大类 14 个任务",
+    "大规模零样本 few-shot 评估 7B-132B 多系列主流 LLM，揭示拼写知识与字符操作能力的显著解耦",
+    "设计合成数据生成流程与双阈值筛选机制，排除预训练数据泄露与语义知识干扰"
+   ],
+   "benchmarks": [
+    "CUTE",
+    "CUTE-Rus"
+   ]
+  }
+ }
 }
