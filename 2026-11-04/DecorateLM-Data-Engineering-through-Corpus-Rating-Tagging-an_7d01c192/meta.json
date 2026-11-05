@@ -4,5 +4,41 @@
  "title": "DecorateLM-Data-Engineering-through-Corpus-Rating-Tagging-an",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-11-04 21:27:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/614554f5-6486-447b-bcab-a592391541c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/614554f5-6486-447b-bcab-a592391541c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:16:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据工程",
+    "预训练语料",
+    "语言模型",
+    "数据筛选",
+    "知识蒸馏",
+    "数据增强"
+   ],
+   "field": "大语言模型训练数据工程",
+   "innovations": [
+    "三阶段数据工程框架（评分-标签-编辑）实现语料精细化治理",
+    "将GPT-4数据工程知识蒸馏至1.2B SLM实现高效大规模处理",
+    "八维质量评分结合Bradley-Terry成对比较提升评分稳定性"
+   ],
+   "benchmarks": [
+    "C-Eval",
+    "CMMLU",
+    "MMLU",
+    "AGI-Eval",
+    "HumanEval",
+    "MBPP",
+    "GSM8K",
+    "MATH",
+    "BBH",
+    "ARC-E",
+    "ARC-C",
+    "TriviaQA",
+    "Domain Coverage"
+   ]
+  }
+ }
 }

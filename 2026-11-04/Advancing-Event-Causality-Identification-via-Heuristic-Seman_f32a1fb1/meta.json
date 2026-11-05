@@ -4,5 +4,30 @@
  "title": "Advancing-Event-Causality-Identification-via-Heuristic-Seman",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-11-04 20:58:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f795f14e-f830-4f89-b55e-4e5a4101e18c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f795f14e-f830-4f89-b55e-4e5a4101e18c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:12:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事件因果关系识别",
+    "语义依赖查询",
+    "Cloze测试",
+    "预训练语言模型",
+    "上下文推理"
+   ],
+   "field": "事件关系抽取",
+   "innovations": [
+    "将ECI重构为语义依赖查询任务",
+    "提出轻量级Cloze分析器+因果判别器框架",
+    "在三个基准上实现SOTA且超越大语言模型"
+   ],
+   "benchmarks": [
+    "ESC",
+    "ESC*",
+    "CTB"
+   ]
+  }
+ }
 }

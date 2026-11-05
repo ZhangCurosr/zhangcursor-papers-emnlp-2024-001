@@ -4,5 +4,10 @@
  "title": "Be-Helpful-but-Don-t-Talk-too-Much-Enhancing-Helpfulness-in",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-11-04 21:02:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/08baa236-e106-4721-96ca-8e94cfe8ff02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/08baa236-e106-4721-96ca-8e94cfe8ff02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:14:37",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,29 @@
  "title": "BC-Prover-Backward-Chaining-Prover-for-Formal-Theorem-Provin",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-11-04 21:27:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/639bc3a2-2e81-4681-9b24-74996a6ad116.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/639bc3a2-2e81-4681-9b24-74996a6ad116.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:14:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backward chaining",
+    "theorem proving",
+    "Lean",
+    "pseudo steps",
+    "step planning",
+    "interactive theorem proving"
+   ],
+   "field": "交互式定理证明",
+   "innovations": [
+    "提出基于伪步骤指导的后向链式框架，从目标分解子目标以引导证明搜索",
+    "设计步骤规划模块，结合状态描述和引理计划以细化证明步骤",
+    "框架可与现有前向链式证明器兼容，显著提升其性能"
+   ],
+   "benchmarks": [
+    "miniF2F"
+   ]
+  }
+ }
 }

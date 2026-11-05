@@ -4,5 +4,33 @@
  "title": "AMR-Evol-Adaptive-Modular-Response-Evolution-Elicits-Better",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-11-04 21:05:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75d4c9a0-e9cf-4a47-b6ac-f3e237a95bcb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75d4c9a0-e9cf-4a47-b6ac-f3e237a95bcb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:13:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Distillation",
+    "Code Generation",
+    "Modular Programming",
+    "Response Evolution",
+    "Instruction Tuning",
+    "Large Language Models"
+   ],
+   "field": "代码生成与大模型知识蒸馏",
+   "innovations": [
+    "提出模块化分解将代码响应拆分为可复用子模块以降低生成难度",
+    "设计基于嵌入检索的自适应响应演化机制利用历史验证模块增强代码生成质量",
+    "构建带单元测试验证闭环的动态功能模块数据库持续积累高质量代码组件"
+   ],
+   "benchmarks": [
+    "HumanEval",
+    "MBPP",
+    "EvalPlus",
+    "CodeContest",
+    "APPS"
+   ]
+  }
+ }
 }

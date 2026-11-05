@@ -4,5 +4,35 @@
  "title": "Effective-Demonstration-Annotation-for-In-Context-Learning-v",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-11-04 21:19:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f42c3061-9f5f-4d44-9702-7f3107f4f777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f42c3061-9f5f-4d44-9702-7f3107f4f777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:17:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Selective Annotation",
+    "Determinantal Point Process",
+    "Uncertainty-Aware Selection",
+    "Few-shot Learning"
+   ],
+   "field": "In-Context Learning 与主动学习交叉",
+   "innovations": [
+    "提出 LM-DPP 框架，将 LLM 困惑度与多样性统一纳入条件 DPP 进行联合建模与选择",
+    "设计可调平衡参数 λ 的目标函数，显式控制不确定性与多样性的权衡",
+    "采用贪心 MAP 推理结合 Cholesky 增量更新，实现多项式时间高效选择"
+   ],
+   "benchmarks": [
+    "GLUE (RTE, MNLI, MRPC, QNLI)",
+    "SST-5",
+    "DBpedia",
+    "TREC",
+    "Hellaswag",
+    "COPA",
+    "XSUM",
+    "NQ"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Consolidating-Ranking-and-Relevance-Predictions-of-Large-Lan",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-11-04 21:02:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d318ab92-dc9a-4120-91d5-4e298263a74c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d318ab92-dc9a-4120-91d5-4e298263a74c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:15:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Model",
+    "Information Retrieval",
+    "Pairwise Ranking",
+    "Constrained Regression",
+    "Relevance Prediction",
+    "Post-processing"
+   ],
+   "field": "LLM-based Search Ranking",
+   "innovations": [
+    "提出约束回归方法融合LLM伪评审员的相关性评分与PRP成对排序偏好",
+    "设计SlideWin和TopAll两种高效约束变体将复杂度从o(n^2)降至o(kn)",
+    "证明无标注方法在ECE上优于需标注的PRP+PWL基线"
+   ],
+   "benchmarks": [
+    "TREC-DL2019",
+    "TREC-DL2020",
+    "TREC-Covid",
+    "DBPedia",
+    "Robust04"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Direct-Multi-Turn-Preference-Optimization-for-Language-Agent",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-11-04 21:27:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ea98e943-8680-4ae9-b127-081fdbc10f59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ea98e943-8680-4ae9-b127-081fdbc10f59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:16:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preference optimization",
+    "language agent",
+    "DPO",
+    "multi-turn RL",
+    "SAOM",
+    "compounding error"
+   ],
+   "field": "语言代理的偏好优化",
+   "innovations": [
+    "以SAOM约束替代策略约束使partition function变为全局常数从而在多轮场景中可消去",
+    "引入长度归一化并为其提供理论解释以处理不等长偏好轨迹"
+   ],
+   "benchmarks": [
+    "WebShop",
+    "ScienceWorld",
+    "ALFWorld"
+   ]
+  }
+ }
 }

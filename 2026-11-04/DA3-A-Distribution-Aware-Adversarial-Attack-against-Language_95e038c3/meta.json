@@ -4,5 +4,33 @@
  "title": "DA3-A-Distribution-Aware-Adversarial-Attack-against-Language",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-11-04 21:21:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1790bbfa-b3bb-45ff-8721-59df8f066eec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1790bbfa-b3bb-45ff-8721-59df8f066eec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:15:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "adversarial attack",
+    "NLP robustness",
+    "out-of-distribution detection",
+    "distribution-aware",
+    "black-box transfer",
+    "BERT attack"
+   ],
+   "field": "自然语言处理安全与对抗鲁棒性",
+   "innovations": [
+    "提出DA³方法通过Data Alignment Loss使对抗样本在MSP和MD分布上与原始样本对齐以提升隐蔽性",
+    "设计NASR指标统一评估攻击成功率与OOD可检测性",
+    "系统揭示现有NLP对抗攻击的分布偏移问题并验证对黑盒LLaMA2-7B的迁移攻击能力"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "CoLA",
+    "RTE",
+    "MRPC",
+    "GLUE"
+   ]
+  }
+ }
 }

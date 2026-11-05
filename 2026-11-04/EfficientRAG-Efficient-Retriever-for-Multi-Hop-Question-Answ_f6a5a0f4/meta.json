@@ -4,5 +4,31 @@
  "title": "EfficientRAG-Efficient-Retriever-for-Multi-Hop-Question-Answ",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-11-04 21:19:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d38938b6-8aed-4587-86f5-5dc884d8d424.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d38938b6-8aed-4587-86f5-5dc884d8d424.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:17:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EfficientRAG",
+    "多跳问答",
+    "检索增强生成",
+    "迭代检索",
+    "小型模型",
+    "query decomposition"
+   ],
+   "field": "检索增强生成与多跳问答",
+   "innovations": [
+    "纯小模型Labeler+Filter迭代检索，替代LLM多轮调用生成下一跳查询",
+    "多跳问题分解+Token标注+负采样的合成数据构建流水线，规模化生产训练数据",
+    "跨数据集迁移验证小模型学到的关系推理泛化能力"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "MuSiQue",
+    "2WikiMQA"
+   ]
+  }
+ }
 }

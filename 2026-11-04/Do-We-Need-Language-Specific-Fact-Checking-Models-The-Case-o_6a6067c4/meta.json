@@ -4,5 +4,30 @@
  "title": "Do-We-Need-Language-Specific-Fact-Checking-Models-The-Case-o",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-11-04 21:17:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a2d772be-aaa8-4293-a209-5521bf4e5556.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a2d772be-aaa8-4293-a209-5521bf4e5556.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:16:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事实核查",
+    "多语言 NLP",
+    "证据检索",
+    "对抗数据集",
+    "中文自然语言处理",
+    "大语言模型偏见"
+   ],
+   "field": "多语言自动事实核查",
+   "innovations": [
+    "提出基于 BigBird 的中文文档级证据检索器（DLR），Recall@5 较 Semantic Ranker 提升 10%",
+    "系统揭示翻译方法和多语言 LLM 在中文事实核查中的根本缺陷",
+    "构建首个中文事实核查对抗数据集并系统性分析 CHEF 的语言/文化偏见"
+   ],
+   "benchmarks": [
+    "CHEF",
+    "Adversarial CHEF"
+   ]
+  }
+ }
 }

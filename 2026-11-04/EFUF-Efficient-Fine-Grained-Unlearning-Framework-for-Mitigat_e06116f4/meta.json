@@ -4,5 +4,35 @@
  "title": "EFUF-Efficient-Fine-Grained-Unlearning-Framework-for-Mitigat",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-11-04 21:27:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8398ba86-5cce-4739-b756-7a7eef9ff490.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8398ba86-5cce-4739-b756-7a7eef9ff490.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:17:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "幻觉缓解",
+    "遗忘学习",
+    "细粒度对齐",
+    "CLIP",
+    "梯度上升"
+   ],
+   "field": "多模态大语言模型可靠性",
+   "innovations": [
+    "首次将细粒度遗忘学习引入多模态幻觉缓解",
+    "利用CLIP相似度自动筛选无标注样本构建微调数据集",
+    "设计正负损失与句子损失协同的三损失遗忘框架"
+   ],
+   "benchmarks": [
+    "CHAIR",
+    "MHumanEval",
+    "POPE",
+    "BLEU",
+    "MME",
+    "GQA",
+    "ScienceQA"
+   ]
+  }
+ }
 }

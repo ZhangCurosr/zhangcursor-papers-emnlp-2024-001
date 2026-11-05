@@ -4,5 +4,32 @@
  "title": "AdaZeta-Adaptive-Zeroth-Order-Tensor-Train-Adaption-for-Memo",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-11-04 21:06:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a2815b59-1931-40f4-a44b-801d3005dc89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a2815b59-1931-40f4-a44b-801d3005dc89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:12:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zeroth-order optimization",
+    "parameter-efficient fine-tuning",
+    "tensor-train decomposition",
+    "large language models",
+    "memory-efficient training",
+    "gradient estimation"
+   ],
+   "field": "大模型高效微调",
+   "innovations": [
+    "提出自适应查询数量调度策略亚线性递增query数以消除ZO微调发散问题",
+    "将Tensor-Train适配器与快速并行收缩引入ZO场景以降低可训练参数维度并加速前向",
+    "在Llama-2-7B上以<14GB显存超越多数ZO基线并在部分任务超过一阶全参数微调"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "SuperGLUE",
+    "SQuAD",
+    "DROP"
+   ]
+  }
+ }
 }

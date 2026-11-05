@@ -4,5 +4,30 @@
  "title": "AUTOSCRAPER-A-Progressive-Understanding-Web-Agent-for-Web-Sc",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-11-04 21:05:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0e966600-ad52-4553-a3b3-07f4f941827e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0e966600-ad52-4553-a3b3-07f4f941827e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:12:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Web Scraping",
+    "LLM Agent",
+    "XPath Generation",
+    "Information Extraction",
+    "Web Data Extraction"
+   ],
+   "field": "网页信息抽取与LLM Agent",
+   "innovations": [
+    "提出渐进式生成+合成两阶段框架，通过DOM树剪枝生成可复用的XPath action sequence",
+    "提出executability metric，将评测从单页精度升级为跨多页可执行性分类",
+    "zero-shot LLM生成抓取器在SWDE上超越全部监督学习方法"
+   ],
+   "benchmarks": [
+    "SWDE",
+    "EXTENDED SWDE",
+    "DS1"
+   ]
+  }
+ }
 }

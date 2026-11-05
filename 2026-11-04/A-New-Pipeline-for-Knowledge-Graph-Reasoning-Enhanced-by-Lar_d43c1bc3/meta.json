@@ -4,5 +4,30 @@
  "title": "A-New-Pipeline-for-Knowledge-Graph-Reasoning-Enhanced-by-Lar",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-11-04 21:06:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ac91d41d-dd17-4579-8c0e-0823edfe3137.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ac91d41d-dd17-4579-8c0e-0823edfe3137.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:11:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱推理",
+    "大语言模型",
+    "零微调",
+    "知识对齐",
+    "实体重排序",
+    "KG补全"
+   ],
+   "field": "知识图谱推理",
+   "innovations": [
+    "提出无需微调的三阶段流水线（知识对齐+推理+重排序），兼容闭源与开源LLM",
+    "设计封闭域/开放域/半封闭域三种知识对齐策略，根据KG关系抽象度自适应选择",
+    "引入LLM作为实体重排序器，在top-k候选上利用语义知识进一步召回正确答案"
+   ],
+   "benchmarks": [
+    "WN18RR",
+    "FB15K-237"
+   ]
+  }
+ }
 }

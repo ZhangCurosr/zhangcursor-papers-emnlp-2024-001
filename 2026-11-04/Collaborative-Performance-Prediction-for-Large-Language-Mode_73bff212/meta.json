@@ -4,5 +4,33 @@
  "title": "Collaborative-Performance-Prediction-for-Large-Language-Mode",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-11-04 21:13:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5143a37a-3169-4cf9-98a3-b7544bb5259f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5143a37a-3169-4cf9-98a3-b7544bb5259f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:15:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Models",
+    "Performance Prediction",
+    "Collaborative Filtering",
+    "Scaling Laws",
+    "Matrix Factorization",
+    "Factor Importance Analysis",
+    "SHAPLEY Value",
+    "Benchmark"
+   ],
+   "field": "LLM评估与性能预测",
+   "innovations": [
+    "首次将协同过滤范式引入LLM下游任务性能预测，实现跨模型族的高精度预测",
+    "构建72模型×29任务的大规模协作数据集并附设计因素，支持小模型→大模型外推",
+    "利用SHAPLEY-VALUE分析模型/任务设计因素重要性，揭示缩放定律忽视的关键因素"
+   ],
+   "benchmarks": [
+    "HELM Lite Leaderboard",
+    "OpenCompass",
+    "Open-LLM Leaderboard"
+   ]
+  }
+ }
 }

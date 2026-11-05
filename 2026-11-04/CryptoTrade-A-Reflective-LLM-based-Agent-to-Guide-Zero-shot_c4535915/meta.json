@@ -4,5 +4,31 @@
  "title": "CryptoTrade-A-Reflective-LLM-based-Agent-to-Guide-Zero-shot",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-11-04 21:01:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/aa2ecba5-2d8c-4b38-b4c4-70277540f9a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/aa2ecba5-2d8c-4b38-b4c4-70277540f9a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:16:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "加密货币交易",
+    "大语言模型",
+    "链上数据",
+    "自我反思代理",
+    "零样本推理",
+    "多Agent系统"
+   ],
+   "field": "金融AI/加密货币交易",
+   "innovations": [
+    "首个整合链上与链下数据的LLM加密货币交易代理框架",
+    "引入自我反思机制迭代优化每日交易决策",
+    "零样本设定下超越时序模型并与传统交易信号相当"
+   ],
+   "benchmarks": [
+    "BTC Bull/Sideways/Bear",
+    "ETH Bull/Sideways/Bear",
+    "SOL Bull/Sideways/Bear"
+   ]
+  }
+ }
 }

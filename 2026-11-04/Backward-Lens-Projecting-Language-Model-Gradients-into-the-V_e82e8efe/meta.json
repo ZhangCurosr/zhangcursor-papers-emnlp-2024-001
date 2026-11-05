@@ -4,5 +4,30 @@
  "title": "Backward-Lens-Projecting-Language-Model-Gradients-into-the-V",
  "token": "sk-Kd7pZOTW3...",
  "created_at": "2026-11-04 21:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0435621a-48c5-4196-a08c-ca1dd57593d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/0435621a-48c5-4196-a08c-ca1dd57593d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:14:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可解释性",
+    "语言模型",
+    "梯度分析",
+    "知识编辑",
+    "Logit Lens",
+    "反向传播"
+   ],
+   "field": "语言模型可解释性",
+   "innovations": [
+    "首次将 LM 梯度矩阵投影到词表空间，揭示低秩结构",
+    "提出印记-偏移（imprint and shift）机制解释 MLP 知识存储",
+    "提出仅需单次前向传播的 Forward Pass Shifting 编辑方法"
+   ],
+   "benchmarks": [
+    "CounterFact",
+    "WikiText"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Abstract",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-11-04 21:06:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/afa0fb71-1a04-4ed3-99c4-36c563ca0d77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/afa0fb71-1a04-4ed3-99c4-36c563ca0d77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:13:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Fake News Detection",
+    "Large Language Models",
+    "Heterogeneous Graph",
+    "Generalized PageRank",
+    "Consistency Regularization",
+    "Semantics Mining",
+    "Graph Representation Learning"
+   ],
+   "field": "假新闻检测与图表示学习",
+   "innovations": [
+    "揭示纯LLM新闻Embedding的局限性，转向实体-主题高层语义挖掘",
+    "提出双尺度广义PageRank传播机制，统一捕获局部细节与全局叙事一致性",
+    "设计基于原型的一致性正则化，实现标注与无标注新闻的联合半监督优化"
+   ],
+   "benchmarks": [
+    "MM COVID",
+    "ReCOVery",
+    "MC Fake",
+    "LIAR",
+    "PAN2020"
+   ]
+  }
+ }
 }

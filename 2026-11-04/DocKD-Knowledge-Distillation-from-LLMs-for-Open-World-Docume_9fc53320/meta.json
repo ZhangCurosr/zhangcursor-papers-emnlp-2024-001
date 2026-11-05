@@ -4,5 +4,34 @@
  "title": "DocKD-Knowledge-Distillation-from-LLMs-for-Open-World-Docume",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-11-04 21:10:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64397a15-9357-49b4-9158-8e26596d5b25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/64397a15-9357-49b4-9158-8e26596d5b25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:16:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document Knowledge Distillation",
+    "Open-World Document Understanding",
+    "Visual Document Understanding",
+    "LLM Data Generation",
+    "Knowledge Distillation",
+    "Document VQA",
+    "Entity Extraction",
+    "Document Classification"
+   ],
+   "field": "文档理解与知识蒸馏",
+   "innovations": [
+    "首次将线性化OCR布局、KV对和文档描述等外部文档知识注入LLM提示以生成高质量标注数据",
+    "提出描述驱动的正负类标签链式生成策略实现开放世界文档分类",
+    "证明仅用LLM生成数据训练的轻量VDU模型可在域外任务上超越人类标注训练模型"
+   ],
+   "benchmarks": [
+    "DocVQA",
+    "CORD",
+    "DeepForm",
+    "RVL-CDIP"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "DocHieNet-A-Large-and-Diverse-Dataset-for-Document-Hierarchy",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-11-04 21:28:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/42b83bf3-40d6-44cb-9bf8-6dc2fb575bb7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/42b83bf3-40d6-44cb-9bf8-6dc2fb575bb7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:16:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document Hierarchy Parsing",
+    "多页面文档理解",
+    "稀疏 Transformer",
+    "布局感知语言模型",
+    "DocHieNet",
+    "DHFormer",
+    "文档结构化"
+   ],
+   "field": "文档智能/版面分析",
+   "innovations": [
+    "提出 DocHieNet 大规模多类型多页双语文档层次解析数据集（1673份，15610页）",
+    "设计 DHFormer 稀疏文本-布局 Transformer 框架，通过 chunk-based 稀疏注意力和双重位置嵌入解决多页多层级挑战"
+   ],
+   "benchmarks": [
+    "arXivdocs",
+    "HRDS",
+    "HRDH",
+    "E-Periodica",
+    "DocHieNet"
+   ]
+  }
+ }
 }

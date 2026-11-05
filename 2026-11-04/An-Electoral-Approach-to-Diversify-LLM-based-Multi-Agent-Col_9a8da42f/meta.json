@@ -4,5 +4,31 @@
  "title": "An-Electoral-Approach-to-Diversify-LLM-based-Multi-Agent-Col",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-11-04 21:24:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/11fb7b06-0f27-4891-b203-0d8f4a0522f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/11fb7b06-0f27-4891-b203-0d8f4a0522f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:13:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "collective decision-making",
+    "multi-agent systems",
+    "social choice theory",
+    "voting mechanisms",
+    "LLM reasoning",
+    "GEDI"
+   ],
+   "field": "多智能体协作与集体决策",
+   "innovations": [
+    "提出GEDI模块集成多种序数偏好投票机制，丰富LLM多智能体CDM方法多样性",
+    "从社会选择理论角度系统分析现有CDM方法的理论缺陷",
+    "实证揭示投票方法在小规模智能体下显著提升LLM推理能力，并分析抗噪鲁棒性与学科差异"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MMLU-Pro",
+    "ARC-Challenge"
+   ]
+  }
+ }
 }

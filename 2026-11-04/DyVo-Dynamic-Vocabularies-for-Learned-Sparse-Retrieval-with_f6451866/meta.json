@@ -4,5 +4,30 @@
  "title": "DyVo-Dynamic-Vocabularies-for-Learned-Sparse-Retrieval-with",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-11-04 21:17:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cbb76614-aa67-45f3-a5fa-40a31a7e2bb3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cbb76614-aa67-45f3-a5fa-40a31a7e2bb3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 01:17:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Learned Sparse Retrieval",
+    "Dynamic Vocabulary",
+    "Entity Retrieval",
+    "Information Retrieval",
+    "Neural Ranking"
+   ],
+   "field": "信息检索与神经网络排序",
+   "innovations": [
+    "提出DyVo动态词汇头，将百万级Wikipedia实体无缝融入稀疏检索词表",
+    "引入Few-shot生成式实体检索替代传统链接/检索方案",
+    "构建联合词-实体稀疏表示，在三个实体密集型基准上一致超越SOTA"
+   ],
+   "benchmarks": [
+    "TREC Robust04",
+    "TREC Core 2018",
+    "CODEC"
+   ]
+  }
+ }
 }
