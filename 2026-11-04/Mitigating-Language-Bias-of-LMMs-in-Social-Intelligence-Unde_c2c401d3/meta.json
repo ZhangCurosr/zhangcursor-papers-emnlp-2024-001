@@ -4,5 +4,31 @@
  "title": "Mitigating-Language-Bias-of-LMMs-in-Social-Intelligence-Unde",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-11-04 20:59:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/45461998-b3e1-4771-85e6-5613af47be1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/45461998-b3e1-4771-85e6-5613af47be1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-06 02:32:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Multimodal Models",
+    "Social Intelligence QA",
+    "Language Bias",
+    "Causal Inference",
+    "Counterfactual Data Augmentation",
+    "Output Calibration"
+   ],
+   "field": "多模态大模型偏见缓解",
+   "innovations": [
+    "提出基于结构因果模型分析的DCVC框架，从因果角度解释并缓解LMMs的SIQA语言偏见",
+    "设计自适应输出分布校准网络，在去偏的同时保留有益语言先验",
+    "创新虚拟反事实数据增强(VCDA)方法，在输出分布空间高效生成反事实训练数据"
+   ],
+   "benchmarks": [
+    "Social-IQ-2.0",
+    "DeSIQ-2.0",
+    "NExT-QA"
+   ]
+  }
+ }
 }
